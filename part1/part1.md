@@ -1,1 +1,2 @@
-
+1. At line 11, the length of <code>prices</code> array will be writted to the console. Because <code>i</code> is declared as <code>var</code>, which is a global value and the value of <i> is incremented to the length of <code>prices</code> array when the for loop ends.   
+2. At line 12, the discounted price of the last element in <code>prices</code> array will be written to the console. Because <code>discountedPrice</code> is declared as <code>var</code>, which is a global varialbe, and the value of <code>discountedPrice</code> is <code>prices[prices.length-1]*(1-discount) when the for loop ends.
