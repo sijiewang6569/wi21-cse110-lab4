@@ -41,9 +41,10 @@ F. <b>True</b> because 2 != 0, Boolean(2) evaluates to true. Since true and tru
 '===': '===' operator is a strict equality comparison operator in JavaScript, so '===' operator checks for the equivalency of the values and the equivalency of the datatypes of two operands. 
 17. <code>How are you?</code> gets printed. \
 First, test the if condition, 2 == true. Because it's the '==' operator, the true will be converted to 1, and 1 is not equal to 2. Thus, it will continue and enter else if condition. Since 2 != 0, the else if condition is true. Thus, <code> How are you?</code> will be written to the console. 
-18. Please check 'part1-question18.js' \
-19. [6, 8, 9] is returned. \
-20. Please check 'part1-question20.js' \
+18. Please check 'part1-question18.js' 
+19. [6, 8, 9] is returned. 
+When the modifyArray function is called, 
+20. Please check 'part1-question20.js' 
 21. The output is: \
 1 \
 4 \
