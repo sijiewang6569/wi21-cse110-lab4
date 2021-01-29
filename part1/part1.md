@@ -11,11 +11,11 @@ Although <code>discounted</code> is declared with <code>let</code>, it's still i
 9. At line 11, a Reference error will be thrown. Because when <code>let</code> is used to declare the <code>i</code> variable in a loop, the <code>i</code> variable will only be visible within the loop. Thus, it will say that the <code>i</code> variable is not defined.
 10. At line 12, a Reference error will be thrown. 
 13. \
-&emsp;&emsp;A. student.name \
-&emsp;&emsp;B. student['Grad Year'] \
-&emsp;&emsp;C. student.greeting(); \
-&emsp;&emsp;D. student['Favorite Teacher'].name \
-&emsp;&emsp;E. student.courseLoad[0] \
+A. student.name \
+B. student['Grad Year'] \
+C. student.greeting(); \
+D. student['Favorite Teacher'].name \
+E. student.courseLoad[0] 
 
 
 
