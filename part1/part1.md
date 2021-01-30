@@ -51,8 +51,7 @@ The modifyArray function modifies every number in the array. Firstly, 2 is added
 4 \
 3 \
 2 \
-Because
-
+<code>console.log(1)</code> is executed as soon as the function starts, so firstly 1 is written to the console. The next number is written to the console is 4 because it does not neet to execute <code>setTimeout()</code> function. Then, 3 is written to the console since its timeout is 0 milesecond. The last number is written to the console is 2 because its timeout is 1000 milesecond, which is the longest timeout. 
 
 
 
