@@ -37,7 +37,7 @@ C. <b>True</b> because the '==' operator can transform the operands having the s
 D. <b>False</b> because the '===' operator is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. '2' and 2 have different data types, so it's false. \
 E. <b>False</b> because the '==' operator can transform the operands having the same type. Thus, true will be converted to 1 before comprison. \
 F. <b>True</b> because 2 != 0, Boolean(2) evaluates to true. Since true and true have the same value and datatye, Boolean(2) and true have the same value and datatype. Thus, it's true.
-16. \
+16. Explain the difference between the == and === operators: 
 '==': '==' operator can transform the operands having the same type before comparsion, so '==' operator only checks for the equivalency of the values of the two operands. \
 '===': '===' operator is a strict equality comparison operator in JavaScript, so '===' operator checks for the equivalency of the values and the equivalency of the datatypes of two operands. 
 17. <code>How are you?</code> gets printed. \
@@ -51,7 +51,7 @@ The modifyArray function modifies every number in the array. Firstly, 2 is added
 4 \
 3 \
 2 \
-<code>console.log(1)</code> is executed as soon as the function starts, so firstly 1 is written to the console. The next number is written to the console is 4 because it does not neet to execute <code>setTimeout()</code> function. Then, 3 is written to the console since its timeout is 0 milesecond. The last number is written to the console is 2 because its timeout is 1000 milesecond, which is the longest timeout. 
+<code>console.log(1)</code> is executed as soon as the function starts, so firstly 1 is written to the console. The next number is written to the console is 4 because it does not need to execute <code>setTimeout()</code> function. Then, 3 is written to the console since its timeout is 0 milesecond. The last number is written to the console is 2 because its timeout is 1000 milesecond, which is the longest timeout. 
 
 
 
