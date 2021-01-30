@@ -5,7 +5,11 @@
 ### Watch expressions list screenshot
 <img src=https://github.com/sijiewang6569/wi21-cse110-lab4/blob/main/part3/part3-watch.png>
 
-### What was the bug?
+### What was the bug? 
+The bug was caused by the input data type. The num1 and num2 were converted to string. Thus, when they went into the <code>calculateSum</code> function, num1 and num2 were performed concatenation instead of addition. 
+
+### How to fix the bug? 
+I added a type casting that converts the input value to number with <code>Number()</code> function to fix the bug. 
 
 ### Fixed file screenshot
 <img src=https://github.com/sijiewang6569/wi21-cse110-lab4/blob/main/part3/part3-fixed.png>
@@ -19,4 +23,4 @@
 6. Type of server: Apache
 7. Tue, 26 Jan 2021 22:14:13 GMT
 8. Content-Type: application/json
-9. function fetchData()
+9. fetchData()
