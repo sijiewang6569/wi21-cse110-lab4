@@ -1,5 +1,5 @@
 # DevTools - Debugging
-[!part3-breakpoints.png]part3-breakpoints.png
+<img src=https://github.com/sijiewang6569/wi21-cse110-lab4/blob/main/part3/part3_breakpoints.png>
 
 # DevTools - Network Tab
 1. citylots.json
