@@ -43,9 +43,9 @@ F. <b>True</b> because 2 != 0, Boolean(2) evaluates to true. Since true and tru
 17. <code>How are you?</code> gets printed. \
 First, test the if condition, 2 == true. Because it's the '==' operator, the true will be converted to 1, and 1 is not equal to 2. Thus, it will continue and enter else if condition. Since 2 != 0, the else if condition is true. Thus, <code> How are you?</code> will be written to the console. 
 18. Please check 'part1-question18.js' 
-19. [6, 8, 9] is returned. 
-When the modifyArray function is called, 
-20. Please check 'part1-question20.js' 
+19. [6, 8, 10] is returned. \
+The modifyArray function modifies every number in the array. Firstly, 2 is added to the number in the <code>dosome</code> function and then the new number is multipled by 2 in <code>function</code> function. Thus, this process makes 1 to be (1+2)*2 = 6, 2 to be (2+2)*2 = 8 and 3 to be (3+2)*2 = 10. These new numbers are pushed into the <code>newArr</code> array and the <code>newArr</code> is returned. 
+20. Please check 'part1-question20.js'  
 21. The output is: \
 1 \
 4 \
