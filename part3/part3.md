@@ -1,5 +1,5 @@
 # DevTools - Debugging
-
+[!part3-breakpoints]part3-breakpoints.png
 
 # DevTools - Network Tab
 1. citylots.json
